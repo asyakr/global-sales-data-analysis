@@ -18,8 +18,8 @@
 - **Promising:** Clothes (low cost, modest revenue, strong profit).
 
 ## 4. Sales by Category
-- Highest sales: Office Supplies (>600k sales).
-- Lowest sales: Household (>450k sales).
+- **Highest sales**: Office Supplies (>600k sales).
+- **Lowest sales**: Household (>450k sales).
 - Profits do not always match sales volume — costs have strong influence.
 
 ## 5. Country Analysis
@@ -28,7 +28,7 @@
 - **Weak markets:** Monaco, Georgia, Iceland.
 
 ## 6. Regional Analysis
-- Europe leads in revenue (~$1.4B) and profit (~$600M).
+- Europe leads in revenue (\~$1.4B) and profit (\~$600M).
 - Asia significantly behind in all metrics.
 
 ## 7. Sales Channel Analysis

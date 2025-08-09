@@ -20,28 +20,28 @@ The analysis also covers **cost, revenue, and profit** distribution, highlightin
 The dataset contains:
 
 1. **Countries Table**
-- name: Full country name
-- alpha_2: 2-letter country code
-- alpha_3: 3-letter country code
-- region: Geographical region
-- sub_region: More specific sub-region
+- `name`: Full country name
+- `alpha_2`: 2-letter country code
+- `alpha_3`: 3-letter country code
+- `region`: Geographical region
+- `sub_region`: More specific sub-region
 2. **Events Table (Main table)**
-- order_id: Unique order identifier
-- order_date, ship_date: Order and shipping dates
-- order_priority: Priority level of the order
-- country_code: 3-letter country code (links to Countries table)
-- product_id: ID of the purchased product (links to Products table)
-- sales_channel: Sales platform or method (e.g., Online, Offline)
-- units_sold: Number of items sold
-- unit_price: Price per unit
-- unit_cost: Cost per unit
+- `order_id`: Unique order identifier
+- `order_date`, ship_date: Order and shipping dates
+- `order_priority`: Priority level of the order
+- `country_code`: 3-letter country code (links to Countries table)
+- `product_id`: ID of the purchased product (links to Products table)
+- `sales_channel`: Sales platform or method (e.g., Online, Offline)
+- `units_sold`: Number of items sold
+- `unit_price`: Price per unit
+- `unit_cost`: Cost per unit
 3. **Products Table**
-- id: Product identifier
-- item_type: Type of the product
+- `id`: Product identifier
+- `item_type`: Type of the product
 
 **Table Relationships**
-- df_events.product_id → df_products.id
-- df_events.country_code → df_countries.alpha_3
+- df_events.`product_id` → df_products.`id`
+- df_events.`country_code` → df_countries.`alpha_3`
 
 ## Main Metrics
 - **Orders quantity:** 1328  
